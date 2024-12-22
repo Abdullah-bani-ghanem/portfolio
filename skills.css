@@ -1,0 +1,465 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar div {
+  margin-left: 10px;
+}
+
+.btn {
+  background-color: #00b894;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(57, 142, 138, 1);
+}
+
+
+
+.nav-links {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+}
+
+
+.nav-links li {
+  margin: 0 15px;
+
+}
+
+.nav-links a {
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #00b894;
+}
+
+
+
+
+
+.sec2 {
+  width: 100%;
+  height: 650px;
+  background-color: rgba(57, 142, 138, 1);
+  padding-bottom: 100px;
+}
+
+.sec2 .mysk {
+  padding-top: 50px;
+  color: white;
+  font-size: 50px;
+  margin-left: 150px;
+  font-weight: bolder;
+
+}
+
+.sec2 .parg {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 100px;
+
+}
+
+
+
+
+.back {
+  height: 400px;
+  background-image: url("img/back.png");
+  background-size: cover;
+  color: white;
+
+}
+
+.back p {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 150px;
+  font-weight: bolder;
+
+}
+
+
+
+
+
+
+.sec3 {
+
+  width: 100%;
+  margin: 0;
+  height: auto;
+  background-color: rgba(7, 70, 67, 1);
+}
+
+
+.sec3 .impu {
+  padding-top: 50px;
+  color: white;
+  font-size: 50px;
+  margin-left: 600px;
+  font-weight: bolder;
+
+}
+
+.sec3 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+.squareserv {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.squareserv div {
+
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(57, 142, 138, 1);
+  margin-top: 150px;
+
+
+}
+
+.squareserv img {
+  width: 70px;
+  height: 70px;
+  border-radius: 0;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+
+.squareserv .web {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.squareserv div p {
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+
+
+
+.rectangserv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rectangserv div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: rgba(57, 142, 138, 1);
+  margin-top: 150px;
+
+}
+
+.rectangserv a {
+
+  color: white;
+  font-weight: bolder;
+  font-size: 28px;
+  margin-left: 20px;
+
+
+
+
+}
+
+
+.par {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 90px;
+  margin-bottom: 0;
+  word-spacing: 5px;
+  line-height: 80px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.footer-title {
+
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer-links {
+  margin-left: 200px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-links a:hover {
+  color: #00b894;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+.contact-info {
+  list-style: none;
+  padding: 10px;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  margin-right: 120px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 8px;
+}
+
+.contact-info img {
+  width: 30px;
+  height: 30px;
+}
+
+.logofoot {
+  width: 200px;
+  height: 150px;
+  margin: 15px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(57, 142, 138, 1);
+  color: white;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    padding: 0;
+  }
+
+
+
+  .text {
+    font-size: 40px;
+    padding-right: 20px;
+  }
+
+  .web {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  
+  .myimg {
+    width: 250px;
+    height: 300px;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgba(57, 142, 138, 1);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .nav-links.show {
+    display: flex;
+  }
+
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .sec2 .mysk,
+  .sec2 .parg {
+    font-size: 28px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .back p {
+    font-size: 50px;
+  }
+
+  .sec3 .impu {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .links,
+  .squareserv,
+  .rectangserv {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .squareserv div,
+  .rectangserv div {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+
+  .rectangserv a {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .par {
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+ /* Footer */
+ .footer {
+  text-align: center;
+}
+
+.footer-left {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links {
+  margin-left: 0;
+  align-items: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info li {
+  margin-right: 0;
+}
+
+.logofoot {
+  width: 150px;
+  height: 100px;
+  margin: 10px auto;
+}
+}
